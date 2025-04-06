@@ -1,40 +1,52 @@
 <x-layout>
-    <section>
-       <h3>Top Tales</h3>
-
-       <div class="p-4 bg-orange-500">
-        <div>
-            <div>Laracasts</div>
-            <div>
-                <h3>Vid pro</h3>
-                <p>full </p>
+    <div class="space-y-10 ">
+        <section>
+        <x-section-heading>Top Tales</x-section-heading>
+            <div class="grid lg:grid-cols-3 gap-8">
+                <x-job-card />
+                <x-job-card />
+                <x-job-card />
             </div>
-            <div>
+        </section>    
+        <section>    
+            <x-section-heading>Tags</x-section-heading>
+            <div class="flex  items-center mt-6 space-x-1">
                 <div>
-                    <a href="#">Tag</a>
-                    <a href="#">Tag</a>
-                    <a href="#">Tag</a>
+                    <x-tag>Tag </x-tag>
+                </div>
+                <div>
+                    <x-tag>Tag </x-tag>
+                </div>
+                <div>
+                    <x-tag>Tag </x-tag>
+                </div>
+                <div>
+                    <x-tag>Tag </x-tag>
+                </div>
+                <div>
+                    <x-tag>Tag </x-tag>
+                </div>
+                <div>
+                    <x-tag>Tag </x-tag>
+                </div>
+                <div>
+                    <x-tag>Tag </x-tag>
+                </div>
+                <div>
+                    <x-tag>Tag </x-tag>
+                </div>
+                <div>
+                    <x-tag>Tag </x-tag>
+                </div>
+                <div>
+                    <x-tag>Tag </x-tag>
                 </div>
             </div>
-            <div class="bg-red-100">
+        </section>    
+        <section>    
+            <x-section-heading>Recent </x-section-heading>
             
-                <img src="http://place-hold.it/42/42" alt="">
-            </div>    
-            <div>
-            </div>
-        </div>
-       </div>   
-    </section>    
-    <div class="p-10">
-        He World!
-    </div>
-    <div>
-      Hel World!
-    </div>
-    <div>
-        Hell World!
-    </div>
-    <div>
-        Hello World!
-    </div>
+        </section> 
+
+    </div>   
 </x-layout>    
