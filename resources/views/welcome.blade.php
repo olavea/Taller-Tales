@@ -10,7 +10,7 @@
         </section>    
         <section>    
             <x-section-heading>Tags</x-section-heading>
-            <div class="flex  items-center mt-6 space-x-1">
+            <div class="flex items-center mt-6 space-x-1">
                 <div>
                     <x-tag>Tag </x-tag>
                 </div>
