@@ -1,0 +1,1 @@
+<img src="http://picsum.photos/seed/{{ rand(0, 10000) }}/90/90" alt="" class="rounded-xl" /> 
