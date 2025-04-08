@@ -45,7 +45,11 @@
         </section>    
         <section>    
             <x-section-heading>Recent </x-section-heading>
-            
+            <div class="bg-red-300 flex gap-x-6">
+                <x-job-card-wide />
+                <x-job-card-wide />
+                <x-job-card-wide />
+            </div>
         </section> 
 
     </div>   
