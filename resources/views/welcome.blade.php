@@ -10,7 +10,7 @@
         </section>    
         <section>    
             <x-section-heading>Tags</x-section-heading>
-            <div class="flex  items-center mt-6 space-x-1">
+            <div class="flex items-center mt-6 space-x-1">
                 <div>
                     <x-tag>Tag </x-tag>
                 </div>
@@ -44,8 +44,12 @@
             </div>
         </section>    
         <section>    
-            <x-section-heading>Recent </x-section-heading>
-            
+            <x-section-heading>Recent Jobs</x-section-heading>
+            <div class="mt-6 space-y-6">
+                <x-job-card-wide />
+                <x-job-card-wide />
+                <x-job-card-wide />
+            </div>      
         </section> 
 
     </div>   

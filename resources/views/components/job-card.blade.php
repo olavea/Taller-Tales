@@ -11,10 +11,7 @@
                     <x-tag>Tag</x-tag>
                     <x-tag>Tag</x-tag>
                 </div>
-                <div class="bg-red-300">
-            
-                    <img src="http://place-hold.it/42/42" alt="">
-                </div>    
+                <x-employer-logo /> 
             </div>
 
             <div>
