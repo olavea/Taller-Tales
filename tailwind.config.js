@@ -4,7 +4,9 @@ export default {
     "./resources/**/*.js",
     ],
     theme: {
-        extend: {},
+        extend: {
+            // fontFamily
+        },
     },
     plugins: [],
 
