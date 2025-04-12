@@ -9,7 +9,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="bg-yellow-300 text-black">
+<body class="bg-yellow-300 text-black pb-20">
     <div class="px-10">
         <nav class="flex justify-between items-center py-4 border-b border-black/30">
             <div>
